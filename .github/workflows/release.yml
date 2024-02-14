@@ -8,6 +8,7 @@ on:
     branches: [ "rebirth" ]
   pull_request:
     branches: [ "rebirth" ]
+  workflow_dispatch:
 
 jobs:
   releaseJar:
